@@ -26,11 +26,11 @@
 <script>
   import { directive as onClickaway } from 'vue-clickaway'
   import axios from '~/helpers/axios'
-  import MainInfo from '~/components/dapps/detail/MainInfo.vue'
-  import Lead from '~/components/dapps/detail/Lead.vue'
-  import Related from '~/components/dapps/detail/Related.vue'
-  import StatusSocial from '~/components/dapps/detail/StatusSocial.vue'
-  import Tools from '~/components/dapps/detail/Tools.vue'
+  import MainInfo from '~/components/apps/detail/MainInfo.vue'
+  import Lead from '~/components/apps/detail/Lead.vue'
+  import Related from '~/components/apps/detail/Related.vue'
+  import StatusSocial from '~/components/apps/detail/StatusSocial.vue'
+  import Tools from '~/components/apps/detail/Tools.vue'
 
   export default {
     components: {

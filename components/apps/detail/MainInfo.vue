@@ -41,7 +41,7 @@
 </template>
 
 <script>
-  import Contract from '~/components/dapps/detail/mainInfo/Contract.vue'
+  import Contract from '~/components/apps/detail/mainInfo/Contract.vue'
 
   export default {
     computed: {

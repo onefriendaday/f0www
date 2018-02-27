@@ -15,8 +15,8 @@
 </template>
 
 <script>
-  import Fields from '~/components/dapps/form/Fields'
-  import PreviewSave from '~/components/dapps/form/PreviewSave'
+  import Fields from '~/components/apps/form/Fields'
+  import PreviewSave from '~/components/apps/form/PreviewSave'
 
   export default {
     components: {

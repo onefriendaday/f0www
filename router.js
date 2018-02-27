@@ -2,11 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const About = () => import('~/pages/about.vue').then(m => m.default || m)
-const Dapps = () => import('~/pages/dapps/index.vue').then(m => m.default || m)
-const DappsNew = () => import('~/pages/dapps/new.vue').then(m => m.default || m)
-const DappsNewConfirmation = () => import('~/pages/dapps/new/confirmation.vue').then(m => m.default || m)
-const DappsSlug = () => import('~/pages/dapps/_slug.vue').then(m => m.default || m)
-const DappsSlugPopup = () => import('~/pages/dapps/_slug/popup.vue').then(m => m.default || m)
+const Dapps = () => import('~/pages/apps/index.vue').then(m => m.default || m)
+const DappsNew = () => import('~/pages/apps/new.vue').then(m => m.default || m)
+const DappsNewConfirmation = () => import('~/pages/apps/new/confirmation.vue').then(m => m.default || m)
+const DappsSlug = () => import('~/pages/apps/_slug.vue').then(m => m.default || m)
+const DappsSlugPopup = () => import('~/pages/apps/_slug/popup.vue').then(m => m.default || m)
 const Events = () => import('~/pages/events/index.vue').then(m => m.default || m)
 const EventsNew = () => import('~/pages/events/new.vue').then(m => m.default || m)
 const EventsNewConfirmation = () => import('~/pages/events/new/confirmation.vue').then(m => m.default || m)

@@ -9,10 +9,10 @@
 </template>
 
 <script>
-  import CountRefine from '~/components/dapps/list/CountRefine.vue'
-  import Items from '~/components/dapps/list/Items.vue'
-  import Pager from '~/components/dapps/list/Pager.vue'
-  import Search from '~/components/dapps/list/Search.vue'
+  import CountRefine from '~/components/apps/list/CountRefine.vue'
+  import Items from '~/components/apps/list/Items.vue'
+  import Pager from '~/components/apps/list/Pager.vue'
+  import Search from '~/components/apps/list/Search.vue'
 
   export default {
     components: {

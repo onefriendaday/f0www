@@ -20,8 +20,8 @@
 </template>
 
 <script>
-  import TabDropdown from '~/components/dapps/list/countRefine/TabDropdown.vue'
-  import StatusDropdown from '~/components/dapps/list/countRefine/StatusDropdown.vue'
+  import TabDropdown from '~/components/apps/list/countRefine/TabDropdown.vue'
+  import StatusDropdown from '~/components/apps/list/countRefine/StatusDropdown.vue'
 
   export default {
     beforeDestroy () {
