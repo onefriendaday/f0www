@@ -5,7 +5,7 @@ const env = {
   apiUrl: process.env.API_URL || 'https://api.storyblok.com/v1/cdn/spaces?token=HLOaBeSbUiZFkQj73wPAgwtt',
   googleAnalytics: process.env.GOOGLE_ANALYTICS,
   mapboxKey: process.env.MAPBOX_KEY,
-  mixpanel: process.env.MIXPANEL || 'aa376463e711219fcb2a8dc522333a16',
+  mixpanel: process.env.MIXPANEL,
   mode: process.env.MODE || 'universal',
   linkexchangeRecipientAddress: process.env.LINKEXCHANGE_RECIPIENT_ADDRESS || '0x65bCF0A60B3974931a4459c32ef4043262bc370c',
   linkexchangeTillDate: process.env.LINKEXCHANGE_TILL_DATE || '3/31/2018',
