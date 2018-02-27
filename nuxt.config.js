@@ -44,7 +44,8 @@ module.exports = {
   modules: [
     '@nuxtjs/sentry',
     '@nuxtjs/router',
-    ['@nuxtjs/google-analytics', { id: env.googleAnalytics }]
+    ['@nuxtjs/google-analytics', { id: env.googleAnalytics }],
+    ['storyblok-nuxt', {accessToken: 'TKznhYJW5Eg5QsDKwAr8oQtt', cacheProvider: 'memory'}]
   ],
   router: {
     saveScrollPosition: true
